@@ -1,0 +1,69 @@
+
+.pu_listpaging {
+	display: block;
+	margin: 0 auto;
+	padding: 20px 0px;
+	background-color:#000000;
+}
+
+.pu_pagingstart, .pu_pagingprev 
+.pu_pagingnext, .pu_pagingend
+{
+	padding: 4px 20px;
+	test-align: center;
+}
+
+.pu_pagingpage {
+	padding: 4px 8px;
+	test-align: center;
+}
+
+.pu_pagingselpage {
+	padding: 4px 8px;
+	test-align: center;
+	font-weight: bolder;
+	color: #333333;
+	border: solid 1px #999999;
+}
+
+.pu_listpaging a {
+	color: #666666;
+}
+
+
+/* 페이지이동 S,  */
+
+.paging ul {
+	list-style:none;
+	float:right;
+	display:inline;
+}
+.paging ul li {
+	float:left;
+}
+.paging ul li a {
+	float:left;
+	padding:4px;
+	margin-right:3px;
+	width:15px;
+	font: 12px tahoma;
+	border:1px solid #eee;
+	text-align:center;
+	text-decoration:none;
+	background:#FFFFFF;
+
+}
+.paging ul li a:hover, ul li a:focus {
+	color:#fff;
+	border:1px solid #eee;
+	background-color:#4e8fc6;
+	font:bold 12px tahoma;
+}
+
+.paging .on  a:link {
+	color:#fff;
+	border:1px solid #eee;
+	background-color:#4e8fc6;
+	font:bold 12px tahoma;
+}
+/* 페이지이동 E */

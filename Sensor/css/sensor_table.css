@@ -1,0 +1,27 @@
+
+
+.sensor_table {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.sensor_table_h{
+	margin: 0 auto;
+	border: 1px solid black;
+	color: white;
+	background-color: black;
+}
+
+.sensor_table_d_even{
+	margin: 0 auto;
+	border: 1px solid black;
+	color: black;
+	background-color: #FF8888;
+}
+
+.sensor_table_d_odd{
+	margin: 0 auto;
+	border: 1px solid black;
+	color: black;
+	background-color: #88FF88;
+}
